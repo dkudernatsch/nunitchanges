@@ -51,6 +51,9 @@ To sum up if you want to run a setup/teardown per testcase, use `[SetUp]`/`[Tear
 | SetUp | ✔️ | ❌ |
 | TearDown | ✔️ | ❌ |
 
+__⚠️: Runtime Error__
+__❌: Removed__
+
 ##### Example SetUp Fixture
 ```csharp
 // nunit2 SetUpFixture
