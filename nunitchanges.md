@@ -42,13 +42,14 @@ and the now deprecated `[TestFixtureSetUp]` and `[TestFixtureTearDown]`.
 To sum up if you want to run a setup/teardown per testcase, use `[SetUp]`/`[TearDown]`. If a setup/teardown should only be run once, use `[OneTimeSetUp]`/`[OneTimeTearDown]`.
 
 
-| |TestFixture|SetupFixture|
-|OneTimeSetUp|✔️|✔️|
-|OneTimeTearDown|✔️|✔️|
-|TestFixtureSetUp|⚠️|❌|
-|TestFixtureTearDown|⚠️|❌|
-|SetUp|✔️|❌|
-|TearDown|✔️|❌|
+  | TestFixture | SetupFixture |
+--- | --- | ---
+OneTimeSetUp | ✔️ | ✔️ |
+OneTimeTearDown | ✔️ | ✔️ |
+TestFixtureSetUp | ⚠️ | ❌ |
+TestFixtureTearDown | ⚠️ | ❌ |
+SetUp | ✔️ | ❌ |
+TearDown | ✔️ | ❌ |
 
 ##### Example SetUp Fixture
 ```csharp
