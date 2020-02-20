@@ -51,7 +51,7 @@ To sum up if you want to run a setup/teardown per testcase, use `[SetUp]`/`[Tear
 | SetUp | ✔️ | ❌ |
 | TearDown | ✔️ | ❌ |
 
-__⚠️: Deprecated__
+__⚠️: Deprecated__  
 __❌: Error__
 
 ##### Example SetUp Fixture
