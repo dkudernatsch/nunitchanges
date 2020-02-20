@@ -51,8 +51,8 @@ To sum up if you want to run a setup/teardown per testcase, use `[SetUp]`/`[Tear
 | SetUp | ✔️ | ❌ |
 | TearDown | ✔️ | ❌ |
 
-__⚠️: Runtime Error__
-__❌: Removed__
+__⚠️: Deprecated__
+__❌: Error__
 
 ##### Example SetUp Fixture
 ```csharp
@@ -173,3 +173,4 @@ but break all existing tests which loaded resources relative to the test assembl
     }
 
 ```
+
