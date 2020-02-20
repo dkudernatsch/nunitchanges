@@ -1,8 +1,8 @@
 ## New features in Nunit3
 
-#### (Parallel tests)[https://github.com/nunit/docs/wiki/Parallelizable-Attribute]
+#### [Parallel tests](https://github.com/nunit/docs/wiki/Parallelizable-Attribute)
 
-#### (Assert.Multiple)[https://github.com/nunit/docs/wiki/Multiple-Asserts]
+#### [Assert.Multiple](https://github.com/nunit/docs/wiki/Multiple-Asserts)
 
 #### File attachments
 
